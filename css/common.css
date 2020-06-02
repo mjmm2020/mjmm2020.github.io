@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.about-container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: keepcalm;
+}
+
+.about-row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.about-column {
+	position: relative;
+  	width: 100%;
+  	padding-right: 15px;
+  	padding-left: 15px;
+}
+
+.one-fourth {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.one-half {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.three-fourth {
+	-ms-flex: 0 0 75%;
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.four-fourth {
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.text-center {
+	align-items: center;
+	text-align: center;
+}
+
+.text-right {
+	align-items: right;
+	text-align: right;
+}
+
+.text-left {
+	align-items: left;
+	text-align: left;
+}
+
+.border-round {
+	border-radius: 50%;
+}
+
+.about-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.pic-100 {
+	width: 100px;
+	height: 100px;
+}
+
+.pic-200 {
+	width: 200px;
+	height: 200px;
+}
+
+.pic-300 {
+	width: 300px;
+	height: 300px;
+}
+
+.pic-400 {
+	width: 400px;
+	height: 400px;
+}
+
+.pic-500 {
+	width: 500px;
+	height: 500px;
+}
+
+.top-10 {
+	padding-top: 10px;
+}
+
+.pull-right {
+	float: right;
+}
+
+.pull-left {
+	float: left;
+}

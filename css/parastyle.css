@@ -1,0 +1,137 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+}
+
+.navbar-bg-dark {
+  background: rgba(0,0,0,.8);
+}
+
+.navbar ul .pull-right {
+  float: right;
+}
+
+.navbar ul .right-brand {
+  margin-right: 30px;
+  background: yellow;
+}
+
+.navbar ul .right-brand a {
+  color: black;
+  cursor: initial;
+  font-weight: bold;
+}
+
+.right-brand a:hover {
+  color: black;
+}
+
+.footer-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  color: #fff;
+  padding: 14px 0px 14px 0px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+  overflow: hidden;
+  /*background-color: #333;*/
+  text-align: center;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar ul li a:hover {
+  /*background-color: #111;*/
+  color: yellow;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../image/5.jpg");
+  min-height: 100%;
+
+}
+
+.bgimg-2 {
+  background-image: url("../image/4.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../image/3.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("../image/b1.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.para-text-container {
+  color: #777;background-color:white;
+  text-align:center;padding:50px 80px;
+  text-align: justify;
+}
