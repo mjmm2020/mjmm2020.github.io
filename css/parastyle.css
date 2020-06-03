@@ -63,7 +63,6 @@
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 .navbar ul li a:hover {
   /*background-color: #111;*/
   color: yellow;
@@ -76,14 +75,13 @@ body, html {
   color: #777;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url("../image/5.jpg");
@@ -102,6 +100,16 @@ body, html {
 }
 
 .bgimg-4 {
+  background-image: url("../image/6.jpg");
+  min-height: 400px;
+}
+
+.bgimg-5 {
+  background-image: url("../image/7.jpg");
+  min-height: 400px;
+}
+
+.bgimg-6 {
   background-image: url("../image/b1.jpg");
   min-height: 400px;
 }
@@ -134,4 +142,31 @@ h3 {
   color: #777;background-color:white;
   text-align:center;padding:50px 80px;
   text-align: justify;
+}
+
+.para-list {
+  list-style-type:square;
+  margin-left: 100px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .para-list {
+    margin-left: 0px;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  i.fa.nav-icon {
+    font-size: 20pt;
+  }
+
+  .navbar ul {
+    padding-left: 20px;
+  }
+
+  .navbar ul .right-brand {
+    margin-right: 5px;
+  }
 }
