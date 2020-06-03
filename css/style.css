@@ -145,7 +145,7 @@ li a:hover {
 }
 
 .landing-container h1 span {
-	-webkit-text-stroke-width: .1px;
+	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: yellow;
 	color: transparent;
 	padding-top: 0;
